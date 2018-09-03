@@ -1,0 +1,4 @@
+package: github.com/pong3ds/play-with-kafka-and-go
+import:
+- package: github.com/3dsinteractive/confluent-kafka-go
+  version: ^0.11.4
