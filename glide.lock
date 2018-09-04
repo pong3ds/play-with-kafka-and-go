@@ -1,5 +1,5 @@
-hash: 689eebc205e75b599b39c10ab890cc84cd5e6bef992cdf81c6a6d0a3319d97de
-updated: 2018-09-03T18:31:08.380286+07:00
+hash: a9d9f76b19e61baa104a0fd72cda39c4e7a570498c48f5676fc74d3e2953458f
+updated: 2018-09-04T15:20:20.826628+07:00
 imports:
 - name: github.com/3dsinteractive/confluent-kafka-go
   version: 5e4d04e05fc319ce5996a867aafef29059f26862
@@ -30,6 +30,8 @@ imports:
   version: efa589957cd060542a26d2dd7832fd6a6c6c3ade
 - name: github.com/mattn/go-isatty
   version: 6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c
+- name: github.com/Pallinder/go-randomdata
+  version: 15df0648130a623e418886f81b2aaecd0a00547b
 - name: github.com/stretchr/testify
   version: f35b8ab0b5a2cef36673838d662e249dd9c94686
 - name: github.com/valyala/bytebufferpool
