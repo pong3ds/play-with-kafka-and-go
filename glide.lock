@@ -1,6 +1,48 @@
-hash: 6ec2316f671400e0e49ea00fa481fd6791d481268f55abb63eca8c0b074113cf
-updated: 2018-09-03T12:40:51.776961+07:00
+hash: 689eebc205e75b599b39c10ab890cc84cd5e6bef992cdf81c6a6d0a3319d97de
+updated: 2018-09-03T18:31:08.380286+07:00
 imports:
 - name: github.com/3dsinteractive/confluent-kafka-go
   version: 5e4d04e05fc319ce5996a867aafef29059f26862
+  subpackages:
+  - kafka
+- name: github.com/3dsinteractive/echo
+  version: 6d227dfea4d2e52cb76856120b3c17f758139b4e
+- name: github.com/3dsinteractive/elastic
+  version: 4dc1ca747c59b18d2d1edf8108b6d359f90cf607
+- name: github.com/3dsinteractive/go-resiliency
+  version: ea41b0fad31007accc7f806884dcdf3da98b79ce
+- name: github.com/3dsinteractive/gorm
+  version: 6ed508ec6a4ecb3531899a69cbc746ccf65a4166
+- name: github.com/3dsinteractive/govalidator
+  version: ccb8e960c48f04d6935e72476ae4a51028f9e22f
+- name: github.com/3dsinteractive/redigo
+  version: 9c11da706d9b7902c6da69c592f75637793fe121
+- name: github.com/3dsinteractive/sling
+  version: eb56e89ac5088bebb12eef3cb4b293300f43608b
+- name: github.com/3dsinteractive/yaml
+  version: 0ca9ea5df5451ffdf184b4428c902747c2c11cd7
+- name: github.com/labstack/gommon
+  version: 2a618302b929cc20862dda3aa6f02f64dbe740dd
+  subpackages:
+  - color
+  - log
+- name: github.com/mattn/go-colorable
+  version: efa589957cd060542a26d2dd7832fd6a6c6c3ade
+- name: github.com/mattn/go-isatty
+  version: 6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c
+- name: github.com/stretchr/testify
+  version: f35b8ab0b5a2cef36673838d662e249dd9c94686
+- name: github.com/valyala/bytebufferpool
+  version: e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7
+- name: github.com/valyala/fasttemplate
+  version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
+- name: golang.org/x/crypto
+  version: 614d502a4dac94afa3a6ce146bd1736da82514c6
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/sys
+  version: 4910a1d54f876d7b22162a85f4d066d3ee649450
+  subpackages:
+  - unix
 testImports: []

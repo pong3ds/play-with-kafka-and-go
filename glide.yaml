@@ -1,4 +1,22 @@
 package: github.com/pong3ds/play-with-kafka-and-go
 import:
+- package: github.com/3dsinteractive/yaml
+  version: ^1.0.0
+- package: github.com/3dsinteractive/echo
+  version: ^3.2.1
+- package: github.com/3dsinteractive/gorm
+  version: ^1.9.1
 - package: github.com/3dsinteractive/confluent-kafka-go
   version: ^0.11.4
+- package: github.com/3dsinteractive/elastic
+  version: ^6.1.29
+- package: github.com/3dsinteractive/go-resiliency
+  version: ^1.1.0
+- package: github.com/3dsinteractive/sling
+  version: ^1.1.0
+- package: github.com/3dsinteractive/govalidator
+  version: ^9.0.0
+- package: github.com/3dsinteractive/redigo
+  version: ^2.0.0
+- package: github.com/stretchr/testify
+  version: ^1.2.2
