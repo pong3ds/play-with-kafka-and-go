@@ -1,6 +1,6 @@
 #!/bin/bash
 
-message="'$*'"
+message="$*"
 
 if [ -z "$message" ]; then
     echo "Please enter commit message using commit-all <your-message-here>"
